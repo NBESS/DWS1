@@ -1,3 +1,4 @@
+/* Main Styles */
 body {
 	font-family: 'Lateef', Times, cursive;
 	font-weight: 400;
@@ -5,7 +6,8 @@ body {
 	background-color: #000000;
 	color: #8e001c;
 	}
-	
+
+/* Layout */
 .wrapper {
 	width: 900px;
 	border: 2px double #000;
@@ -16,7 +18,37 @@ body {
 	background-color: HSL(35, 50%, 95%);
 	box-shadow: -3px -2px 30px HSL(35, 50%, 35%);
 	}
+
+/* Navigation */
+ul	{
+	list-style-type: none;
+	text-align: center;
+	width: 625px;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	margin: 0px auto;
+	}
+
+ul li	{
+	display: inline;
+	margin: 0px 10px;
+	}
 	
+	
+a:link {
+	text-decoration: none;
+	color: #999
+	}
+	
+a:visited {
+	color: #ee03ff;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+	
+/* Headings and paragraphs */	
 h1	{
 	margin: 0px;
 	font-weight: 700;
@@ -32,15 +64,10 @@ h2, h3	{
 	text-shadow: 1px 2px 0px HSL(35, 50%, 80%);
 	}
 	
-ul	{
-	list-style-type: none;
-	text-align: center;
-	width: 625px;
-	border-top: 2px solid #000;
-	border-bottom: 1px solid #000;
-	margin: 0px auto;
+h3	{
+	font-style: oblique;
 	}
-
+	
 ol	{
 	list-style-type: decimal;
 	}
@@ -62,29 +89,12 @@ p[class] {
 	box-shadow: -1px -1px 2px HSL(35, 50%, 70%);
 	}
 
-ul li	{
-	display: inline;
-	margin: 0px 10px;
-	}
-	
 ol li {
 	margin-left: 10px;
-	display: block;
-	}
-	
-a:link {
-	text-decoration: none;
-	color: #999
-	}
-	
-a:visited {
-	color: #ee03ff;
-	}
-	
-a:hover {
-	text-decoration: underline;
+	list-style-type: upper-roman;
 	}
 
+/* Footer */
 footer {
 	color: #000;
 	}
